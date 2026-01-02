@@ -1,0 +1,29 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal 16 64 -48 -16
+SYMATTR Prefix x
+SYMATTR Value INA128
+PIN -48 16 NONE 8
+PINATTR PinName +ve_ip
+PINATTR SpiceOrder 1
+PIN -48 32 NONE 8
+PINATTR PinName -ve_ip
+PINATTR SpiceOrder 2
+PIN 16 16 NONE 8
+PINATTR PinName V+
+PINATTR SpiceOrder 3
+PIN -48 48 NONE 8
+PINATTR PinName V-
+PINATTR SpiceOrder 4
+PIN 16 32 NONE 8
+PINATTR PinName out
+PINATTR SpiceOrder 5
+PIN 16 48 NONE 8
+PINATTR PinName ref
+PINATTR SpiceOrder 6
+PIN -48 0 NONE 8
+PINATTR PinName rg1
+PINATTR SpiceOrder 7
+PIN 16 0 NONE 8
+PINATTR PinName rg2
+PINATTR SpiceOrder 8
