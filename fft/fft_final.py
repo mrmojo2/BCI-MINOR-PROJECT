@@ -5,9 +5,9 @@ import matplotlib.pyplot as plt
 PORT = "/dev/ttyACM0"
 BAUD = 230400
 
-FS = 1000.0
-N = 2048
-HOP = 256
+FS = 256.0
+N = 512
+HOP = 512
 
 ser = serial.Serial(PORT, BAUD, timeout=1)
 ser.reset_input_buffer()

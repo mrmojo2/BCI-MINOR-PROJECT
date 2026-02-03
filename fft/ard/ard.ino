@@ -1,4 +1,4 @@
-const uint32_t FS = 1000;
+const uint32_t FS = 256;
 const uint32_t TS_US = 1000000UL / FS;
 
 void setup() {
@@ -14,4 +14,3 @@ void loop() {
     Serial.write((uint8_t*)&adc, 2);
   }
 }
-
